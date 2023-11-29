@@ -1,4 +1,12 @@
---primary-color: #579cb3;
---white:#FFFFFF;
---black:#272728;
---grey:#CACACA;
+:root{
+    --primary-color: #579cb3;
+    --white:#ffffff;
+    --danger:#d75454;
+    --black:#272728;
+    --grey:#a6a6a6;
+    
+}
+
+
+
+
