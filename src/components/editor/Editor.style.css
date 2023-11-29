@@ -1,2 +1,19 @@
 .editor_container {
+  max-width: 80%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.title_input,
+textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 90vh;
 }
