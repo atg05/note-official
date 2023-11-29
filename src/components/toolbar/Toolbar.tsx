@@ -2,7 +2,14 @@
 
 const Toolbar = () => {
   return (
-    <div>Toolbar</div>
+    <div className="toolbar_container">
+       {/* <ImageIcon /> */}
+       <p>I</p>
+       <p>I</p>
+       <p>I</p>
+
+        
+    </div>
   )
 }
 

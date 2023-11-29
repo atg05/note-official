@@ -1,16 +1,20 @@
-.header-container{
-    max-height:fit-content;
-
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-between;
-
-}   
-
-.header-container > .title{
-    font-size:20px;
-    font-weight:800;
-    
+.header-container {
+  max-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.header-container > .title {
+  font-size: 20px;
+  font-weight: 800;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .btn {
+    display: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
