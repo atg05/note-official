@@ -14,6 +14,7 @@ textarea {
 }
 
 textarea {
+  overflow: none;
   resize: none;
-  height: 90vh;
+  margin-bottom: 10px;
 }

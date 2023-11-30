@@ -1,6 +1,6 @@
-import Card from "./components/card/Card";
 import Header from "./components/header/Header";
-import Toolbar from "./components/toolbar/Toolbar";
+// import Card from "./components/card/Card";
+// import Toolbar from "./components/toolbar/Toolbar";
 // import Button from "./components/common/Button/Button"
 import "./styles/index.css";
 
@@ -12,17 +12,14 @@ function App() {
         style={{
           display: "flex",
           flexDirection: "column",
-          gap: "10px",
+          gap: "15px",
           marginInline: "auto",
-          maxWidth: "80%",
+          maxWidth: "70%",
         }}
       >
         <Header />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Toolbar />
+
+        {/* <Toolbar /> */}
       </div>
     </>
   );

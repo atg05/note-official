@@ -1,5 +1,7 @@
 .header-container {
+  margin-top: 20px;
   max-height: fit-content;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,14 +9,17 @@
 }
 
 .header-container > .title {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 800;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .btn {
-    display: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
+
+.icon_header {
+  font-weight: bold;
+  height: 1.5rem;
+  width: 1.5rem;
+  stroke: var(--white);
+  margin-right: 2px;
+
+
+  
 }
