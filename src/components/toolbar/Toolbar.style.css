@@ -1,18 +1,18 @@
 .toolbar_container {
-  width: fit-content;
-
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-
+  margin-top: auto;
+  margin-inline: auto;
   display: flex;
   gap: 3em;
   background: transparent;
+  margin-bottom: 2em;
 }
 
 .icon {
   background: #e9f1f6;
-  padding: 0px 20px;
-  color: var(--primary-color);
+  padding: 5px 5px;
+  height: 2.5rem;
+  width: auto;
+  font-weight: bold;
+  stroke: var(--primary-color);
+  border-radius: 8px;
 }

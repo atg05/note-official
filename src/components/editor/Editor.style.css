@@ -6,6 +6,9 @@
   gap: 1em;
 }
 
+.title_input {
+  font-size: 1.125rem;
+}
 .title_input,
 textarea {
   background: transparent;
@@ -16,5 +19,39 @@ textarea {
 textarea {
   overflow: none;
   resize: none;
+  height: auto;
   margin-bottom: 10px;
+  color: #75757575;
+}
+
+.editor_container > .image_player,
+.video_player,
+.audio_player {
+  margin-inline: auto;
+  width: 100%;
+  position: relative;
+}
+
+.editor_container > .audio_player {
+  width: 100%;
+  color: var(--primary-color);
+  background-color: #e9f1f6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.player_container {
+  position: relative;
+}
+.delete_icon {
+  stroke: #d75454;
+  height: 2rem;
+  width: 2rem;
+  background-color: #95b5d0;
+  position: absolute;
+  padding: 5px;
+  border-radius: 4px;
+  top: 1em;
+  right: 1em;
+  z-index: 2;
 }

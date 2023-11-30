@@ -12,14 +12,14 @@
   font-size: 28px;
   font-weight: 800;
 }
-
+.back_icon {
+  height: 1rem;
+  width: 3rem;
+}
 .icon_header {
   font-weight: bold;
   height: 1.5rem;
   width: 1.5rem;
   stroke: var(--white);
   margin-right: 2px;
-
-
-  
 }
