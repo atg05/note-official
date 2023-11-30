@@ -1,3 +1,3 @@
-@import "./_base.css";
-@import "./_reset.css";
-@import "../abstracts/_index.css";
+body {
+  background: var(--bg-primary);
+}

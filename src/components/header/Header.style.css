@@ -1,0 +1,25 @@
+.header-container {
+  margin-top: 20px;
+  max-height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container > .title {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.icon_header {
+  font-weight: bold;
+  height: 1.5rem;
+  width: 1.5rem;
+  stroke: var(--white);
+  margin-right: 2px;
+
+
+  
+}

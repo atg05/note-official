@@ -1,0 +1,18 @@
+.toolbar_container {
+  width: fit-content;
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  gap: 3em;
+  background: transparent;
+}
+
+.icon {
+  background: #e9f1f6;
+  padding: 0px 20px;
+  color: var(--primary-color);
+}
